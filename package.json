@@ -1,0 +1,30 @@
+{
+  "name": "finance_tracker",
+  "version": "1.0.0",
+  "description": "A finance tracker app made by combining node and postgresql ",
+  "homepage": "https://github.com/MohamedHossamEldeenMohyEldeen/Finance-Tracker#readme",
+  "bugs": {
+    "url": "https://github.com/MohamedHossamEldeenMohyEldeen/Finance-Tracker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedHossamEldeenMohyEldeen/Finance-Tracker.git"
+  },
+  "license": "ISC",
+  "author": "Mohamed Hossam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
