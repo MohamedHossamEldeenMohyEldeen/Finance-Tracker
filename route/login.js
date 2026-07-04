@@ -37,7 +37,6 @@ router.post('/login', async (req, res) =>
     //Making the JWT.
     const token = jwt.sign({ userId: eQuery.rows[0].uid }, process.env.JWT_SECRET, { expiresIn: '7d' });
     res.json({ token });
-
   });
 
 module.exports = router;
